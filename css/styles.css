@@ -17,7 +17,16 @@ body {
 }
 
 .list {
-  list-style: none;
+   margin: 0;
+   padding: 0;
+
+    list-style: none;
+}
+
+/* Хедер страницы */
+
+.page-header {
+    background-color: cadetblue;
 }
 
 
@@ -37,6 +46,13 @@ body {
 }
 
 /* Навигация сайта */
+
+.container {
+    width: 1200px;
+    margin-left: auto;
+    margin-right: auto;
+    outline: 1px dashed;
+}
 
 .site-nav .link,
 .site-contacts .link {
@@ -68,14 +84,19 @@ body {
 
 .section-hero {
     background-color: var(--footer-bg-color);
+    
+    text-align: center;
 }
 
-.section-hero .hero-title {
+.hero-title {
+    margin-top: 0;
+    margin-bottom: 30px;
+
     color: var(--primary-white);
     font-weight: 900;
     font-size: 44px;
     line-height: 1.36;
-    text-align: center;
+    
     letter-spacing: 0.06em;
     text-transform: uppercase;
 }
