@@ -27,9 +27,9 @@ body {
 
 /* Хедер страницы */
 
-.page-header {
+/* .page-header {
     background-color: cadetblue;
-}
+} */
 
 
 /* Лого */
@@ -56,8 +56,6 @@ body {
     padding-right: 15px;
     padding-left: 15px;
 
-
-    outline: 1px dashed;
 }
 
 .site-nav .link,
@@ -127,7 +125,6 @@ body {
 .features-section {
     padding-top: 94px;
 
-    background-color: brown;
 }
 
 .section-title {
@@ -163,7 +160,6 @@ body {
 .work-examples {
     padding-top: 94px;
 
-    background-color: aquamarine;
 }
 
 /* Секция Команда */
@@ -228,10 +224,9 @@ body {
 }
 
 .projects-section {
-    margin-top: 94px;
-    margin-bottom: 94px;
+    padding-top: 94px;
+    padding-bottom: 94px;
 
-    background-color: yellow;
 }
 
 .filters {
@@ -241,12 +236,16 @@ body {
 /* Список фильтров */
 
 .filters .btn {
-    background-color: var(--primary-white);
+    border: none;  
+	border-radius: 4px;
+
+    background-color: var(--secondary-bg-color);
     font-family: Roboto, sans-serif;
     color: var(--title-text-color);
     font-weight: 500;
     font-size: 16px;
     line-height: 1.62;
+    text-align: center;
 
     cursor: pointer;
 }
@@ -260,6 +259,9 @@ body {
 /* Проекты */
 
 .projects .name {
+    margin-top: 20px;
+    margin-bottom: 0;
+
     color: var(--title-text-color);
     font-weight: 700;
     font-size: 18px;
@@ -268,6 +270,9 @@ body {
 }
 
 .projects .description {
+    margin-top: 4px;
+    margin-bottom: 0;
+
     font-size: 16px;
     line-height: 1.87;
 }
