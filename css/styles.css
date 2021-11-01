@@ -58,7 +58,7 @@ body {
 /* Навигация сайта */
 
 .container {
-    width: 1230px;
+    width: 1200px;
     margin-right: auto;
     margin-left: auto;
     padding-right: 15px;
@@ -174,7 +174,7 @@ body {
 }
 
 .features .item {
-    flex-basis: calc((100% - 120px) / 4);
+    flex-basis: calc((100% - 90px) / 4);
 }
 
 .features .item:not(:last-child) {
@@ -277,6 +277,7 @@ body {
 }
 
 .footer .logo {
+    padding: 0;
     color: var(--primary-white);
 }
 
@@ -358,12 +359,9 @@ body {
 }
 
 .project {
-    flex-basis: calc((100% - 90px) / 3);
+    flex-basis: calc((100% - 60px) / 3);
     margin-right: 30px;
     margin-bottom: 30px;
-
-    border: 1px solid var(--primary-border-color);
-    border-top: none;
 }
 
 .project:nth-child(3n) {
@@ -374,10 +372,21 @@ body {
     margin-bottom: 0;
 }
 
+.project .desc {
+    padding: 20px 24px;
+}
+
+/* Розібратись з рамком */
+
+.border {
+    border-bottom: 1px solid var(--primary-border-color);
+    border-right: 1px solid var(--primary-border-color);
+    border-left: 1px solid var(--primary-border-color);
+}
+  
 .projects .name {
-    margin-top: 20px;
+    margin-top: 0;
     margin-bottom: 0;
-    padding-left: 24px;
 
     color: var(--title-text-color);
     font-weight: 700;
@@ -387,10 +396,8 @@ body {
 }
 
 .projects .description {
-    margin-top: 4px;
+    margin-top: 0px;
     margin-bottom: 0;
-    padding-left: 24px;
-    padding-bottom: 20px;
 
     font-size: 16px;
     line-height: 1.87;
