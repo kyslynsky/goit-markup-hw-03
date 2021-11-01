@@ -58,7 +58,7 @@ body {
 /* Навигация сайта */
 
 .container {
-    width: 1200px;
+    width: 1230px;
     margin-right: auto;
     margin-left: auto;
     padding-right: 15px;
@@ -127,7 +127,8 @@ body {
 
 .section-hero {
     background-color: var(--footer-bg-color);
-    
+    padding-top: 200px;
+    padding-bottom: 200px;
     text-align: center;
 }
 
@@ -169,6 +170,10 @@ body {
 .features-section {
     padding-top: 94px;
 
+}
+
+.features .item {
+    flex-basis: calc((100% - 120px) / 4);
 }
 
 .features .item:not(:last-child) {
