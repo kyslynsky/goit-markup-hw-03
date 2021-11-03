@@ -19,6 +19,10 @@ body {
   line-height: 1.71;
 }
 
+img {
+    display: block;
+}
+
 .list {
     margin: 0;
     padding: 0;
@@ -362,7 +366,7 @@ body {
     flex-basis: calc((100% - 60px) / 3);
     margin-right: 30px;
     margin-bottom: 30px;
-    box-shadow: 0px 1px 4px -2px rgba(0, 0, 0, 0.255);
+    
 }
 
 .project:nth-child(3n) {
@@ -375,6 +379,9 @@ body {
 
 .project .desc {
     padding: 20px 24px;
+
+    border: 1px solid var(--primary-border-color);
+    border-top: none;
 }
   
 .projects .name {
